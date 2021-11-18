@@ -1,8 +1,14 @@
+$super-product-background-height: 600px;
+
 .super-product {
 
     background-image: url(../img/super-product/super-product__background.png);
-
     color: $main-text-color;
+    background-repeat: no-repeat;
+
+    height: $super-product-background-height;
+    display: flex;
+    align-items: center;
 
     &__wrapper {
         display: flex;
